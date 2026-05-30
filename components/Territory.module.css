@@ -1,0 +1,8 @@
+.territory { background: #000; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; border-left: 3px solid var(--off-white); }
+.image { height: 180px; background-size: cover; background-position: center; }
+.content { padding: 20px; }
+.name { font-family: 'Fraunces', serif; font-size: 1.15rem; font-weight: 600; margin-bottom: 4px; }
+.location { color: var(--off-white); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 12px; }
+.text { color: var(--gray-light); font-size: 0.88rem; }
