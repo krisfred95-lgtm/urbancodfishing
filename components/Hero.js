@@ -10,8 +10,17 @@ export default function Hero() {
 
   return (
     <section className={styles.hero}>
+      <div className={styles.bgImage} style={{ backgroundImage: `url(${t.image})` }} />
+      <div className={styles.overlay} />
       <div className={styles.content}>
-        <h1 className={styles.headline}>{t.headline[lang]}</h1>
+        <div className={styles.eyebrow}>
+          <span className={styles.eyebrowLine} />
+          {lang === 'en' ? 'Urban sea fishing in Tromsø' : 'Urbanes Meeresangeln in Tromsø'}
+        </div>
+        <h1 className={styles.headline}>
+          {lang === 'en' ? 'Fish the Arctic' : 'Fisch den Dorsch'}
+          <em>{lang === 'en' ? 'in the city' : 'im Eismeer'}</em>
+        </h1>
         <p className={styles.subheadline}>{t.subheadline[lang]}</p>
         <div className={styles.ctas}>
           <a href="#contact" className={styles.ctaPrimary}>{t.cta.primary[lang]}</a>
