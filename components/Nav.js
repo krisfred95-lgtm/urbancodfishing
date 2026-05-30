@@ -10,7 +10,9 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <a href="#" className={styles.logo}>{t.logo}</a>
+      <a href="#" className={styles.logo}>
+        <img src="/logo.jpg" alt="Urban Cod Fishing" />
+      </a>
       <ul className={styles.links}>
         {t.links.map((link, i) => (
           <li key={i}>

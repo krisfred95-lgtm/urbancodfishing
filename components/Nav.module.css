@@ -8,14 +8,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(12, 12, 13, 0.95), transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), transparent);
 }
 
-.logo {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.8rem;
-  letter-spacing: 0.1em;
-  color: var(--foam);
+.logo img {
+  height: 48px;
+  width: auto;
 }
 
 .links {
@@ -26,14 +24,16 @@
 
 .links a {
   font-size: 0.9rem;
-  color: var(--amber);
+  color: var(--off-white);
   transition: color 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  opacity: 0.8;
 }
 
 .links a:hover {
-  color: var(--foam);
+  color: var(--white);
+  opacity: 1;
 }
 
 .actions {
@@ -47,25 +47,32 @@
   font-size: 0.8rem;
   font-weight: 500;
   background: transparent;
-  color: var(--mist);
-  border: 1px solid var(--steel);
+  color: var(--off-white);
+  border: 1px solid var(--gray-mid);
   transition: all 0.3s ease;
+  opacity: 0.6;
 }
 
 .langBtn.active {
-  background: var(--foam);
-  color: var(--night);
-  border-color: var(--foam);
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--white);
+  opacity: 1;
 }
 
 .langBtn:hover:not(.active) {
-  border-color: var(--amber);
-  color: var(--foam);
+  border-color: var(--off-white);
+  color: var(--white);
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
   .nav {
     padding: 15px 20px;
+  }
+
+  .logo img {
+    height: 36px;
   }
 
   .links {

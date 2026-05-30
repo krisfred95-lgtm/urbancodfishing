@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Archivo:wght@300;400;500&display=swap');
 
 :root {
-  --night: #0c0c0d;
-  --deep: #141416;
-  --petrol: #1c1c1f;
-  --steel: #3a3a3f;
-  --foam: #f2f1ee;
-  --mist: #9a9a98;
-  --amber: #d8d6d0;
-  --gold: #c9c7c1;
-  --line: rgba(242, 241, 238, 0.14);
+  /* Core palette - matching logo black/white */
+  --black: #000000;
+  --white: #ffffff;
+  --off-white: #f2f1ee;
+  --gray-dark: #141416;
+  --gray-mid: #3a3a3f;
+  --gray-light: #9a9a98;
+
+  /* Legacy aliases */
+  --night: var(--black);
+  --deep: var(--gray-dark);
+  --petrol: var(--gray-dark);
+  --steel: var(--gray-mid);
+  --foam: var(--off-white);
+  --mist: var(--gray-light);
+  --amber: var(--off-white);
+  --gold: var(--off-white);
+  --line: rgba(255, 255, 255, 0.12);
   --card: rgba(255, 255, 255, 0.04);
 }
 
@@ -25,10 +34,26 @@ html {
 
 body {
   font-family: 'Archivo', sans-serif;
-  background-color: var(--night);
-  color: var(--foam);
+  background-color: var(--black);
+  color: var(--off-white);
   line-height: 1.6;
   overflow-x: hidden;
+}
+
+/* Subtle noise texture like screen-printed logo */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+nav, header, section, footer {
+  position: relative;
+  z-index: 2;
 }
 
 h1, h2, h3 {
