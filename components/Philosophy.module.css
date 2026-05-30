@@ -1,0 +1,6 @@
+.philosophy { background: #000; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 28px; }
+.icon { font-size: 2rem; display: block; margin-bottom: 12px; }
+.card h3 { font-family: 'Fraunces', serif; font-size: 1.2rem; font-weight: 600; margin-bottom: 10px; }
+.card p { color: var(--gray-light); font-size: 0.9rem; }
