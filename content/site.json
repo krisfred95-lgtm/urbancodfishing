@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "logo": "HANNES",
+    "links": [
+      { "label": { "no": "Turene", "en": "Tours" }, "href": "#tours" },
+      { "label": { "no": "Med i prisen", "en": "Included" }, "href": "#included" },
+      { "label": { "no": "Galleri", "en": "Gallery" }, "href": "#gallery" },
+      { "label": { "no": "Kontakt", "en": "Contact" }, "href": "#contact" }
+    ],
+    "langToggle": { "no": "NO", "en": "EN" }
+  },
+  "hero": {
+    "headline": { "no": "Fiskeguide i Tromsø", "en": "Fishing Guide in Tromsø" },
+    "subheadline": { "no": "Opplev den arktiske sjøen med lokalkunnskap", "en": "Experience the Arctic sea with local expertise" },
+    "cta": {
+      "primary": { "no": "Bestill tur", "en": "Book Tour" },
+      "secondary": { "no": "Les mer", "en": "Learn More" }
+    },
+    "stats": [
+      { "value": "3t+", "label": { "no": "Fisketid", "en": "Fishing Time" } },
+      { "value": "6", "label": { "no": "Pers maks", "en": "Max Guests" } },
+      { "value": "69°N", "label": { "no": "Breddegrad", "en": "Latitude" } }
+    ]
+  },
+  "included": {
+    "title": { "no": "Med i prisen", "en": "What's Included" },
+    "items": [
+      { "icon": "⚓", "label": { "no": "Fiskestenger & utstyr", "en": "Fishing rods & gear" } },
+      { "icon": "🧥", "label": { "no": "Vær Ikke bekymret — vi har det du trenger", "en": "Don't worry about weather — we've got you covered" } },
+      { "icon": "🧭", "label": { "no": "Lokal guide", "en": "Local guide" } },
+      { "icon": "🎯", "label": { "no": "Målrettet fisketur", "en": "Targeted fishing" } },
+      { "icon": "🐟", "label": { "no": "Fiskemetoder", "en": "Fishing methods" } },
+      { "icon": "📸", "label": { "no": "Bildedokumentasjon", "en": "Photo documentation" } }
+    ]
+  },
+  "why": {
+    "title": { "no": "Hvorfor Hannes?", "en": "Why Hannes?" },
+    "points": [
+      { "text": { "no": "Lokal sjøvannsfisker med 15+ års erfaring", "en": "Local saltwater angler with 15+ years experience" } },
+      { "text": { "no": "Liten gruppe — personlig opplevelse", "en": "Small group — personal experience" } },
+      { "text": { "no": "Topp utstyr for arktisk fisk", "en": "Top equipment for Arctic fishing" } },
+      { "text": { "no": "Fleksibel planlegging etter vær", "en": "Flexible planning based on weather" } }
+    ]
+  },
+  "reviews": {
+    "title": { "no": "Anmeldelser", "en": "Reviews" },
+    "items": [
+      {
+        "name": { "no": "Maria K.", "en": "Maria K." },
+        "text": { "no": "Fantastisk opplevelse! Hannes var en proff guide.", "en": "Fantastic experience! Hannes was a professional guide." }
+      },
+      {
+        "name": { "no": "Lars B.", "en": "Lars B." },
+        "text": { "no": "Fanget min første torsk i arktisk farvann. Minneverdig!", "en": "Caught my first cod in Arctic waters. Unforgettable!" }
+      },
+      {
+        "name": { "no": "Erik S.", "en": "Erik S." },
+        "text": { "no": "Anbefales på det sterkeste. God stemning og fin natur.", "en": "Highly recommended. Great vibe and beautiful nature." }
+      }
+    ]
+  },
+  "faq": {
+    "title": { "no": "Ofte stilte spørsmål", "en": "FAQ" },
+    "items": [
+      {
+        "question": { "no": "Hva om det regner?", "en": "What if it rains?" },
+        "answer": { "no": "Vi fisker i alle slags vær — relevant utstyr er inkludert.", "en": "We fish in all kinds of weather — relevant gear is included." }
+      },
+      {
+        "question": { "no": "Er dette egnet for nybegynnere?", "en": "Is this suitable for beginners?" },
+        "answer": { "no": "Absolutt! Hannes tilpasser turen til ditt nivå.", "en": "Absolutely! Hannes adapts the tour to your level." }
+      },
+      {
+        "question": { "no": "Hva skal jeg ta med?", "en": "What should I bring?" },
+        "answer": { "no": "Behagelige klær og engasjement. Vi har alt utstyr.", "en": "Comfortable clothes and enthusiasm. We have all gear." }
+      },
+      {
+        "question": { "no": "Hvordan booker jeg?", "en": "How do I book?" },
+        "answer": { "no": "Send oss en e-post så setter vi opp turen sammen.", "en": "Send us an email and we'll set up the tour together." }
+      }
+    ]
+  },
+  "contact": {
+    "title": { "no": "Kontakt", "en": "Contact" },
+    "formLabels": {
+      "name": { "no": "Navn", "en": "Name" },
+      "email": { "no": "E-post", "en": "Email" },
+      "message": { "no": "Melding", "en": "Message" },
+      "submit": { "no": "Send melding", "en": "Send Message" }
+    },
+    "info": {
+      "title": { "no": "Kontaktinformasjon", "en": "Contact Info" },
+      "email": { "no": "E-post", "en": "Email" },
+      "location": { "no": "Sted", "en": "Location" },
+      "emailValue": "post@hannesfishing.no",
+      "locationValue": { "no": "Tromsø, Norway", "en": "Tromsø, Norway" }
+    }
+  },
+  "footer": {
+    "copyright": { "no": "© 2026 Hannes Fishing — Tromsø, Norge", "en": "© 2026 Hannes Fishing — Tromsø, Norway" }
+  }
+}

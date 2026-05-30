@@ -1,0 +1,103 @@
+.contact {
+  background: var(--deep);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 15px 20px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--foam);
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.submit {
+  padding: 16px 40px;
+  background: var(--foam);
+  color: var(--night);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.submit:hover {
+  background: var(--amber);
+  transform: translateY(-2px);
+}
+
+.info {
+  padding: 40px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.infoTitle {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.infoItem {
+  margin-bottom: 25px;
+}
+
+.infoLabel {
+  font-size: 0.8rem;
+  color: var(--mist);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+}
+
+.infoValue {
+  font-size: 1.1rem;
+  color: var(--foam);
+}
+
+.infoValue a {
+  color: var(--gold);
+  transition: color 0.3s ease;
+}
+
+.infoValue a:hover {
+  color: var(--amber);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

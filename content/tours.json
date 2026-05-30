@@ -1,0 +1,30 @@
+{
+  "tours": [
+    {
+      "id": "fishing-trip",
+      "name": { "no": "Fisketur", "en": "Fishing Trip" },
+      "duration": { "no": "3–4 timer", "en": "3–4 hours" },
+      "price": "999",
+      "currency": "kr",
+      "priceLabel": { "no": "per person", "en": "per person" },
+      "description": {
+        "no": "Perfekt for deg som vil prøve arktisk fiske uten å binde opp hele dagen. Opp til 6 personer, alle utstyr inkludert.",
+        "en": "Perfect for those who want to try Arctic fishing without committing a full day. Up to 6 guests, all gear included."
+      },
+      "popular": false
+    },
+    {
+      "id": "full-day",
+      "name": { "no": "Heldagstur", "en": "Full Day" },
+      "duration": { "no": "8 timer", "en": "8 hours" },
+      "price": "2 499",
+      "currency": "kr",
+      "priceLabel": { "no": "per person", "en": "per person" },
+      "description": {
+        "no": "Full opplevelse for dedikerte fiskere. Mer tid på vannet betyr flere muligheter og en dypere opplevelse av naturen.",
+        "en": "Full experience for dedicated anglers. More time on the water means more opportunities and a deeper nature experience."
+      },
+      "popular": true
+    }
+  ]
+}

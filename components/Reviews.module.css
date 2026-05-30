@@ -1,0 +1,39 @@
+.reviews {
+  background: var(--deep);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--amber);
+}
+
+.name {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.text {
+  color: var(--mist);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

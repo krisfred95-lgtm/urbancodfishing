@@ -1,0 +1,93 @@
+.tours {
+  background: var(--deep);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--amber);
+  transform: translateY(-5px);
+}
+
+.cardPopular {
+  border-color: var(--gold);
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: var(--gold);
+  color: var(--night);
+  padding: 4px 16px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+}
+
+.cardName {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cardDuration {
+  font-family: 'Fraunces', serif;
+  color: var(--mist);
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.cardDescription {
+  color: var(--amber);
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+.price {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+}
+
+.currency {
+  font-size: 0.9rem;
+  color: var(--mist);
+  margin-left: 5px;
+}
+
+.priceLabel {
+  font-size: 0.8rem;
+  color: var(--mist);
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

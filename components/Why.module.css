@@ -1,0 +1,25 @@
+.why {
+  background: var(--deep);
+}
+
+.list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 20px 30px;
+  border-left: 3px solid var(--gold);
+  margin-bottom: 20px;
+  background: var(--card);
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.text {
+  font-size: 1.1rem;
+  color: var(--foam);
+}

@@ -1,0 +1,42 @@
+.gallery {
+  background: var(--night);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
+}
+
+.box {
+  border: 2px dashed var(--steel);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mist);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  border-color: var(--amber);
+  background: var(--card);
+}
+
+.boxWide {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .boxWide {
+    grid-column: span 2;
+  }
+}
