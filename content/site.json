@@ -2,101 +2,201 @@
   "nav": {
     "logo": "URBAN COD",
     "links": [
-      { "label": { "en": "Tours", "de": "Touren" }, "href": "#tours" },
-      { "label": { "en": "Included", "de": "Enthalten" }, "href": "#included" },
-      { "label": { "en": "Gallery", "de": "Galerie" }, "href": "#gallery" },
-      { "label": { "en": "Contact", "de": "Kontakt" }, "href": "#contact" }
+      {
+        "label": {
+          "en": "Tours",
+          "de": "Touren"
+        },
+        "href": "#tours"
+      },
+      {
+        "label": {
+          "en": "Species",
+          "de": "Arten"
+        },
+        "href": "#species"
+      },
+      {
+        "label": {
+          "en": "Territory",
+          "de": "Gebiet"
+        },
+        "href": "#territory"
+      },
+      {
+        "label": {
+          "en": "Gear",
+          "de": "Ausrüstung"
+        },
+        "href": "#gear"
+      },
+      {
+        "label": {
+          "en": "Contact",
+          "de": "Kontakt"
+        },
+        "href": "#contact"
+      }
     ],
-    "langToggle": { "en": "EN", "de": "DE" }
+    "langToggle": {
+      "en": "EN",
+      "de": "DE"
+    }
   },
   "hero": {
-    "headline": { "en": "Fishing Guide in Tromsø", "de": "Fischguide in Tromsø" },
-    "subheadline": { "en": "Experience the Arctic sea with local expertise", "de": "Erlebe das arktische Meer mit lokaler Erfahrung" },
+    "headline": {
+      "en": "Fish the Arctic",
+      "de": "Fisch den Dorsch"
+    },
+    "subheadline": {
+      "en": "Urban sea fishing straight from downtown Tromsø. Water depths over 22 meters. Cod up to 25 kg. For experienced anglers.",
+      "de": "Urbanes Meeresangeln direkt ab Zentrum Tromsø. Über 22 m Wassertiefe. Dorsche bis 25 kg. Für erfahrene Angler."
+    },
     "cta": {
-      "primary": { "en": "Book Tour", "de": "Tour buchen" },
-      "secondary": { "en": "Learn More", "de": "Mehr erfahren" }
+      "primary": {
+        "en": "Book a Trip",
+        "de": "Tour buchen"
+      },
+      "secondary": {
+        "en": "See Trips",
+        "de": "Touren ansehen"
+      }
     },
     "stats": [
-      { "value": "4h", "label": { "en": "Trip Length", "de": "Tourlänge" } },
-      { "value": "4", "label": { "en": "Max Guests", "de": "Max. Gäste" } },
-      { "value": "69°N", "label": { "en": "Latitude", "de": "Breitengrad" } }
-    ]
+      {
+        "value": "22m+",
+        "label": {
+          "en": "Water depth",
+          "de": "Wassertiefe"
+        }
+      },
+      {
+        "value": "25 kg",
+        "label": {
+          "en": "Max catch",
+          "de": "Max. Fang"
+        }
+      },
+      {
+        "value": "25",
+        "label": {
+          "en": "Fish / 2 hrs",
+          "de": "Fische / 2 Std"
+        }
+      },
+      {
+        "value": "4",
+        "label": {
+          "en": "Max guests",
+          "de": "Max. Gäste"
+        }
+      }
+    ],
+    "image": "/images/hero.jpg"
   },
   "included": {
-    "title": { "en": "What's Included", "de": "Enthalten" },
-    "items": [
-      { "icon": "⚓", "label": { "en": "Fishing rods & gear", "de": "Ruten & Ausrüstung" } },
-      { "icon": "🧥", "label": { "en": "Weather gear if needed", "de": "Wetterkleidung bei Bedarf" } },
-      { "icon": "🧭", "label": { "en": "Local guide", "de": "Lokaler Guide" } },
-      { "icon": "🎯", "label": { "en": "For experienced anglers", "de": "Für erfahrene Angler" } },
-      { "icon": "🐟", "label": { "en": "Keep your catch for dinner", "de": "Behalte deinen Fang zum Abendessen" } },
-      { "icon": "📸", "label": { "en": "Free photos from the trip", "de": "Kostenlose Fotos von der Tour" } }
-    ]
-  },
-  "why": {
-    "title": { "en": "Why Urban Cod?", "de": "Warum Urban Cod?" },
-    "points": [
-      { "text": { "en": "Local saltwater angler with 15+ years experience", "de": "Lokaler Meeresangler mit 15+ Jahren Erfahrung" } },
-      { "text": { "en": "Small group — personal experience", "de": "Kleine Gruppe — persönliches Erlebnis" } },
-      { "text": { "en": "Top equipment for Arctic fishing", "de": "Top-Ausrüstung für arktisches Angeln" } },
-      { "text": { "en": "Flexible planning based on weather", "de": "Flexible Planung nach Wetterlage" } }
-    ]
-  },
-  "reviews": {
-    "title": { "en": "Reviews", "de": "Bewertungen" },
+    "title": {
+      "en": "What's Included",
+      "de": "Inklusive"
+    },
     "items": [
       {
-        "name": { "en": "Sarah M.", "de": "Sarah M." },
-        "text": { "en": "Best fishing experience in Tromsø. The guide knew exactly where the fish were.", "de": "Beste Angelausrüstung in Tromsø. Der Guide wusste genau, wo die Fische sind." }
+        "icon": "⚓",
+        "label": {
+          "en": "Premium gear (€300 class)",
+          "de": "Premium-Ausrüstung (€300)"
+        }
       },
       {
-        "name": { "en": "Lars B.", "de": "Lars B." },
-        "text": { "en": "Caught my first cod in Arctic waters. Unforgettable!", "de": "Meinen ersten Dorsch in arktischen Gewässern gefangen. Unvergesslich!" }
+        "icon": "🧭",
+        "label": {
+          "en": "20 years experience",
+          "de": "20 Jahre Erfahrung"
+        }
       },
       {
-        "name": { "en": "Erik S.", "de": "Erik S." },
-        "text": { "en": "Highly recommended. Great vibe and beautiful nature.", "de": "Sehr empfehlenswert. Tolle Stimmung und schöne Natur." }
+        "icon": "🎯",
+        "label": {
+          "en": "For experienced anglers",
+          "de": "Für erfahrene Angler"
+        }
+      },
+      {
+        "icon": "📚",
+        "label": {
+          "en": "Knowledge for life",
+          "de": "Wissen fürs Leben"
+        }
       }
     ]
   },
-  "faq": {
-    "title": { "en": "FAQ", "de": "Häufige Fragen" },
-    "items": [
+  "why": {
+    "title": {
+      "en": "Why Urban Cod?",
+      "de": "Warum Urban Cod?"
+    },
+    "points": [
       {
-        "question": { "en": "What if the weather is bad?", "de": "Was tun bei schlechtem Wetter?" },
-        "answer": { "en": "Safety first. If we cancel due to weather, you get a full refund or a new date.", "de": "Sicherheit zuerst. Bei Wetterabsage gibt es volle Rückerstattung oder einen neuen Termin." }
+        "text": {
+          "en": "No long journeys — spots are close to town",
+          "de": "Keine langen Anfahrten — Plätze nah am Zentrum"
+        }
       },
       {
-        "question": { "en": "Is this suitable for beginners?", "de": "Ist das für Anfänger geeignet?" },
-        "answer": { "en": "These trips are designed for anglers with some experience. You should be comfortable handling a rod.", "de": "Die Touren sind für Angler mit Vorerfahrung gedacht. Du solltest sicher mit der Rute umgehen können." }
+        "text": {
+          "en": "20 years of angling experience — reads the water in real-time",
+          "de": "20 Jahre Erfahrung — liest das Wasser in Echtzeit"
+        }
       },
       {
-        "question": { "en": "What should I bring?", "de": "Was sollte ich mitbringen?" },
-        "answer": { "en": "Warm layers and closed, sturdy shoes. We provide all gear and waterproofs if needed.", "de": "Warme Kleidung und festes Schuhwerk. Wir stellen alles Equipment und bei Bedarf Wetterkleidung." }
+        "text": {
+          "en": "Premium Daiwa & Penn gear — red rod, red reel",
+          "de": "Premium Daiwa & Penn — rote Rute, rote Rolle"
+        }
       },
       {
-        "question": { "en": "Can I keep the fish I catch?", "de": "Kann ich den gefangenen Fisch behalten?" },
-        "answer": { "en": "Yes. We practice catch & release to keep stocks healthy, but you can keep what you want for dinner.", "de": "Ja. Wir praktizieren Catch & Release, um die Bestände zu schützen, aber was du zum Abendessen möchtest, kannst du behalten." }
+        "text": {
+          "en": "Move if nothing bites in 15 min",
+          "de": "Wechseln wenn nichts beisst in 15 min"
+        }
       }
     ]
   },
   "contact": {
-    "title": { "en": "Contact", "de": "Kontakt" },
+    "title": {
+      "en": "Contact",
+      "de": "Kontakt"
+    },
     "formLabels": {
-      "name": { "en": "Name", "de": "Name" },
-      "email": { "en": "Email", "de": "E-Mail" },
-      "message": { "en": "Message", "de": "Nachricht" },
-      "submit": { "en": "Send Message", "de": "Nachricht senden" }
+      "name": {
+        "en": "Name",
+        "de": "Name"
+      },
+      "email": {
+        "en": "Email",
+        "de": "E-Mail"
+      },
+      "message": {
+        "en": "Message",
+        "de": "Nachricht"
+      },
+      "submit": {
+        "en": "Send Message",
+        "de": "Nachricht senden"
+      }
     },
     "info": {
-      "title": { "en": "Contact Info", "de": "Kontaktinformation" },
-      "email": { "en": "Email", "de": "E-Mail" },
-      "location": { "en": "Location", "de": "Standort" },
       "emailValue": "post@urbancodfishing.no",
-      "locationValue": { "en": "Tromsø, Norway", "de": "Tromsø, Norwegen" }
+      "locationValue": {
+        "en": "Tromsø downtown, harbor",
+        "de": "Tromsø Zentrum, Hafen"
+      }
     }
   },
   "footer": {
-    "copyright": { "en": "© 2026 Urban Cod Fishing — Tromsø, Norway", "de": "© 2026 Urban Cod Fishing — Tromsø, Norwegen" }
+    "copyright": {
+      "en": "© 2026 Urban Cod Fishing — Tromsø, Norway",
+      "de": "© 2026 Urban Cod Fishing — Tromsø, Norwegen"
+    }
   }
 }
