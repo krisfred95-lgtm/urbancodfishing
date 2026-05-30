@@ -2,29 +2,72 @@
   "tours": [
     {
       "id": "fishing-trip",
-      "name": { "en": "Fishing Trip", "de": "Angeln" },
-      "duration": { "en": "3–4 hours", "de": "3–4 Stunden" },
+      "name": {
+        "en": "Fishing Trip",
+        "de": "Angeltour"
+      },
+      "duration": {
+        "en": "3–4 hours · daily",
+        "de": "3–4 Stunden · täglich"
+      },
       "price": "999",
       "currency": "kr",
-      "priceLabel": { "en": "per person", "de": "pro Person" },
-      "description": {
-        "en": "Perfect for those who want to try Arctic fishing without committing a full day. Up to 4 guests, all gear included.",
-        "de": "Perfekt für alle, die arktisches Fischen ausprobieren möchten, ohne einen ganzen Tag zu blocken. Bis zu 4 Gäste, komplettes Equipment inklusive."
+      "priceLabel": {
+        "en": "per person",
+        "de": "pro Person"
       },
-      "popular": false
+      "description": {
+        "en": "Guided trip to the best marks in the Arctic. Cod, saithe and haddock. For experienced anglers who know their gear.",
+        "de": "Geführte Tour zu den besten Plätzen im Eismeer. Dorsch, Köhler und Schellfisch. Für erfahrene Angler."
+      },
+      "popular": false,
+      "image": "/images/fishing-1.png"
     },
     {
       "id": "full-day",
-      "name": { "en": "Full Day", "de": "Ganztagestour" },
-      "duration": { "en": "8 hours", "de": "8 Stunden" },
+      "name": {
+        "en": "Full Day",
+        "de": "Ganztagestour"
+      },
+      "duration": {
+        "en": "Full day · up to 4 guests",
+        "de": "Ganztagestour · bis 4 Pers."
+      },
       "price": "2 499",
       "currency": "kr",
-      "priceLabel": { "en": "per person", "de": "pro Person" },
-      "description": {
-        "en": "Full experience for dedicated anglers. More time on the water means more opportunities and a deeper nature experience.",
-        "de": "Volles Erlebnis für erfahrene Angler. Mehr Zeit auf dem Wasser bedeutet mehr Chancen und ein intensiveres Naturerlebnis."
+      "priceLabel": {
+        "en": "per person",
+        "de": "pro Person"
       },
-      "popular": true
+      "description": {
+        "en": "Advanced tactics & spots. Kelp forests and outer reefs. Everything about Arctic fishing — reading maps, currents, and tackle.",
+        "de": "Fortgeschrittene Taktik und Spots. Kelp-Wälder und Aussenriffe. Alles über arktisches Angeln — Karten, Strömung, Tackle."
+      },
+      "popular": true,
+      "image": "/images/fishing-2.png"
+    },
+    {
+      "id": "midnight-sun",
+      "name": {
+        "en": "Midnight Sun",
+        "de": "Mitternachtssonne"
+      },
+      "duration": {
+        "en": "Weekends · seasonal",
+        "de": "Wochenenden · Saison"
+      },
+      "price": "0",
+      "currency": "kr",
+      "priceLabel": {
+        "en": "on request",
+        "de": "auf Anfrage"
+      },
+      "description": {
+        "en": "Alpha predators use dim midnight light to hunt in shallow water — prime time for outlier catches.",
+        "de": "Alpha-Raubfische nutzen das gedämpfte Licht zum Jagen in flachem Wasser — beste Zeit für aussergewöhnliche Fänge."
+      },
+      "popular": false,
+      "image": "/images/harbor-4panel.png"
     }
   ]
 }
