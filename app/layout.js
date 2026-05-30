@@ -5,13 +5,13 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Hannes Fishing — Fiskeguide i Tromsø',
+  title: 'Urban Cod Fishing — Fishing Guide in Tromsø',
   description: 'Profesjonell fiskeguide i Tromsø, Norge. Opplev den arktiske sjøen med lokalkunnskap.',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="no">
+    <html lang="en">
       <body>
         <LangProvider>
           <ScrollReveal>

@@ -2,27 +2,27 @@
   "tours": [
     {
       "id": "fishing-trip",
-      "name": { "no": "Fisketur", "en": "Fishing Trip" },
-      "duration": { "no": "3–4 timer", "en": "3–4 hours" },
+      "name": { "en": "Fishing Trip", "de": "Angeln" },
+      "duration": { "en": "3–4 hours", "de": "3–4 Stunden" },
       "price": "999",
       "currency": "kr",
-      "priceLabel": { "no": "per person", "en": "per person" },
+      "priceLabel": { "en": "per person", "de": "pro Person" },
       "description": {
-        "no": "Perfekt for deg som vil prøve arktisk fiske uten å binde opp hele dagen. Opp til 6 personer, alle utstyr inkludert.",
-        "en": "Perfect for those who want to try Arctic fishing without committing a full day. Up to 6 guests, all gear included."
+        "en": "Perfect for those who want to try Arctic fishing without committing a full day. Up to 4 guests, all gear included.",
+        "de": "Perfekt für alle, die arktisches Fischen ausprobieren möchten, ohne einen ganzen Tag zu blocken. Bis zu 4 Gäste, komplettes Equipment inklusive."
       },
       "popular": false
     },
     {
       "id": "full-day",
-      "name": { "no": "Heldagstur", "en": "Full Day" },
-      "duration": { "no": "8 timer", "en": "8 hours" },
+      "name": { "en": "Full Day", "de": "Ganztagestour" },
+      "duration": { "en": "8 hours", "de": "8 Stunden" },
       "price": "2 499",
       "currency": "kr",
-      "priceLabel": { "no": "per person", "en": "per person" },
+      "priceLabel": { "en": "per person", "de": "pro Person" },
       "description": {
-        "no": "Full opplevelse for dedikerte fiskere. Mer tid på vannet betyr flere muligheter og en dypere opplevelse av naturen.",
-        "en": "Full experience for dedicated anglers. More time on the water means more opportunities and a deeper nature experience."
+        "en": "Full experience for dedicated anglers. More time on the water means more opportunities and a deeper nature experience.",
+        "de": "Volles Erlebnis für erfahrene Angler. Mehr Zeit auf dem Wasser bedeutet mehr Chancen und ein intensiveres Naturerlebnis."
       },
       "popular": true
     }

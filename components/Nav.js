@@ -20,16 +20,16 @@ export default function Nav() {
       </ul>
       <div className={styles.actions}>
         <button
-          className={`${styles.langBtn} ${lang === 'no' ? styles.active : ''}`}
-          onClick={() => toggleLang('no')}
-        >
-          NO
-        </button>
-        <button
           className={`${styles.langBtn} ${lang === 'en' ? styles.active : ''}`}
           onClick={() => toggleLang('en')}
         >
           EN
+        </button>
+        <button
+          className={`${styles.langBtn} ${lang === 'de' ? styles.active : ''}`}
+          onClick={() => toggleLang('de')}
+        >
+          DE
         </button>
       </div>
     </nav>

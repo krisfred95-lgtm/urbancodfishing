@@ -14,7 +14,7 @@ export default function Contact() {
     const name = formData.get('name');
     const email = formData.get('email');
     const message = formData.get('message');
-    const subject = encodeURIComponent(lang === 'no' ? 'Hannes Fishing henvendelse' : 'Hannes Fishing inquiry');
+    const subject = encodeURIComponent(lang === 'de' ? 'Urban Cod Fishing Anfrage' : 'Urban Cod Fishing inquiry');
     const body = encodeURIComponent(`Navn: ${name}\nE-post: ${email}\n\nMelding:\n${message}`);
     window.location.href = `mailto:${t.info.emailValue}?subject=${subject}&body=${body}`;
   };

@@ -1,102 +1,102 @@
 {
   "nav": {
-    "logo": "HANNES",
+    "logo": "URBAN COD",
     "links": [
-      { "label": { "no": "Turene", "en": "Tours" }, "href": "#tours" },
-      { "label": { "no": "Med i prisen", "en": "Included" }, "href": "#included" },
-      { "label": { "no": "Galleri", "en": "Gallery" }, "href": "#gallery" },
-      { "label": { "no": "Kontakt", "en": "Contact" }, "href": "#contact" }
+      { "label": { "en": "Tours", "de": "Touren" }, "href": "#tours" },
+      { "label": { "en": "Included", "de": "Enthalten" }, "href": "#included" },
+      { "label": { "en": "Gallery", "de": "Galerie" }, "href": "#gallery" },
+      { "label": { "en": "Contact", "de": "Kontakt" }, "href": "#contact" }
     ],
-    "langToggle": { "no": "NO", "en": "EN" }
+    "langToggle": { "en": "EN", "de": "DE" }
   },
   "hero": {
-    "headline": { "no": "Fiskeguide i Tromsø", "en": "Fishing Guide in Tromsø" },
-    "subheadline": { "no": "Opplev den arktiske sjøen med lokalkunnskap", "en": "Experience the Arctic sea with local expertise" },
+    "headline": { "en": "Fishing Guide in Tromsø", "de": "Fischguide in Tromsø" },
+    "subheadline": { "en": "Experience the Arctic sea with local expertise", "de": "Erlebe das arktische Meer mit lokaler Erfahrung" },
     "cta": {
-      "primary": { "no": "Bestill tur", "en": "Book Tour" },
-      "secondary": { "no": "Les mer", "en": "Learn More" }
+      "primary": { "en": "Book Tour", "de": "Tour buchen" },
+      "secondary": { "en": "Learn More", "de": "Mehr erfahren" }
     },
     "stats": [
-      { "value": "3t+", "label": { "no": "Fisketid", "en": "Fishing Time" } },
-      { "value": "6", "label": { "no": "Pers maks", "en": "Max Guests" } },
-      { "value": "69°N", "label": { "no": "Breddegrad", "en": "Latitude" } }
+      { "value": "4h", "label": { "en": "Trip Length", "de": "Tourlänge" } },
+      { "value": "4", "label": { "en": "Max Guests", "de": "Max. Gäste" } },
+      { "value": "69°N", "label": { "en": "Latitude", "de": "Breitengrad" } }
     ]
   },
   "included": {
-    "title": { "no": "Med i prisen", "en": "What's Included" },
+    "title": { "en": "What's Included", "de": "Enthalten" },
     "items": [
-      { "icon": "⚓", "label": { "no": "Fiskestenger & utstyr", "en": "Fishing rods & gear" } },
-      { "icon": "🧥", "label": { "no": "Vær Ikke bekymret — vi har det du trenger", "en": "Don't worry about weather — we've got you covered" } },
-      { "icon": "🧭", "label": { "no": "Lokal guide", "en": "Local guide" } },
-      { "icon": "🎯", "label": { "no": "Målrettet fisketur", "en": "Targeted fishing" } },
-      { "icon": "🐟", "label": { "no": "Fiskemetoder", "en": "Fishing methods" } },
-      { "icon": "📸", "label": { "no": "Bildedokumentasjon", "en": "Photo documentation" } }
+      { "icon": "⚓", "label": { "en": "Fishing rods & gear", "de": "Ruten & Ausrüstung" } },
+      { "icon": "🧥", "label": { "en": "Weather gear if needed", "de": "Wetterkleidung bei Bedarf" } },
+      { "icon": "🧭", "label": { "en": "Local guide", "de": "Lokaler Guide" } },
+      { "icon": "🎯", "label": { "en": "For experienced anglers", "de": "Für erfahrene Angler" } },
+      { "icon": "🐟", "label": { "en": "Keep your catch for dinner", "de": "Behalte deinen Fang zum Abendessen" } },
+      { "icon": "📸", "label": { "en": "Free photos from the trip", "de": "Kostenlose Fotos von der Tour" } }
     ]
   },
   "why": {
-    "title": { "no": "Hvorfor Hannes?", "en": "Why Hannes?" },
+    "title": { "en": "Why Urban Cod?", "de": "Warum Urban Cod?" },
     "points": [
-      { "text": { "no": "Lokal sjøvannsfisker med 15+ års erfaring", "en": "Local saltwater angler with 15+ years experience" } },
-      { "text": { "no": "Liten gruppe — personlig opplevelse", "en": "Small group — personal experience" } },
-      { "text": { "no": "Topp utstyr for arktisk fisk", "en": "Top equipment for Arctic fishing" } },
-      { "text": { "no": "Fleksibel planlegging etter vær", "en": "Flexible planning based on weather" } }
+      { "text": { "en": "Local saltwater angler with 15+ years experience", "de": "Lokaler Meeresangler mit 15+ Jahren Erfahrung" } },
+      { "text": { "en": "Small group — personal experience", "de": "Kleine Gruppe — persönliches Erlebnis" } },
+      { "text": { "en": "Top equipment for Arctic fishing", "de": "Top-Ausrüstung für arktisches Angeln" } },
+      { "text": { "en": "Flexible planning based on weather", "de": "Flexible Planung nach Wetterlage" } }
     ]
   },
   "reviews": {
-    "title": { "no": "Anmeldelser", "en": "Reviews" },
+    "title": { "en": "Reviews", "de": "Bewertungen" },
     "items": [
       {
-        "name": { "no": "Maria K.", "en": "Maria K." },
-        "text": { "no": "Fantastisk opplevelse! Hannes var en proff guide.", "en": "Fantastic experience! Hannes was a professional guide." }
+        "name": { "en": "Sarah M.", "de": "Sarah M." },
+        "text": { "en": "Best fishing experience in Tromsø. The guide knew exactly where the fish were.", "de": "Beste Angelausrüstung in Tromsø. Der Guide wusste genau, wo die Fische sind." }
       },
       {
-        "name": { "no": "Lars B.", "en": "Lars B." },
-        "text": { "no": "Fanget min første torsk i arktisk farvann. Minneverdig!", "en": "Caught my first cod in Arctic waters. Unforgettable!" }
+        "name": { "en": "Lars B.", "de": "Lars B." },
+        "text": { "en": "Caught my first cod in Arctic waters. Unforgettable!", "de": "Meinen ersten Dorsch in arktischen Gewässern gefangen. Unvergesslich!" }
       },
       {
-        "name": { "no": "Erik S.", "en": "Erik S." },
-        "text": { "no": "Anbefales på det sterkeste. God stemning og fin natur.", "en": "Highly recommended. Great vibe and beautiful nature." }
+        "name": { "en": "Erik S.", "de": "Erik S." },
+        "text": { "en": "Highly recommended. Great vibe and beautiful nature.", "de": "Sehr empfehlenswert. Tolle Stimmung und schöne Natur." }
       }
     ]
   },
   "faq": {
-    "title": { "no": "Ofte stilte spørsmål", "en": "FAQ" },
+    "title": { "en": "FAQ", "de": "Häufige Fragen" },
     "items": [
       {
-        "question": { "no": "Hva om det regner?", "en": "What if it rains?" },
-        "answer": { "no": "Vi fisker i alle slags vær — relevant utstyr er inkludert.", "en": "We fish in all kinds of weather — relevant gear is included." }
+        "question": { "en": "What if the weather is bad?", "de": "Was tun bei schlechtem Wetter?" },
+        "answer": { "en": "Safety first. If we cancel due to weather, you get a full refund or a new date.", "de": "Sicherheit zuerst. Bei Wetterabsage gibt es volle Rückerstattung oder einen neuen Termin." }
       },
       {
-        "question": { "no": "Er dette egnet for nybegynnere?", "en": "Is this suitable for beginners?" },
-        "answer": { "no": "Absolutt! Hannes tilpasser turen til ditt nivå.", "en": "Absolutely! Hannes adapts the tour to your level." }
+        "question": { "en": "Is this suitable for beginners?", "de": "Ist das für Anfänger geeignet?" },
+        "answer": { "en": "These trips are designed for anglers with some experience. You should be comfortable handling a rod.", "de": "Die Touren sind für Angler mit Vorerfahrung gedacht. Du solltest sicher mit der Rute umgehen können." }
       },
       {
-        "question": { "no": "Hva skal jeg ta med?", "en": "What should I bring?" },
-        "answer": { "no": "Behagelige klær og engasjement. Vi har alt utstyr.", "en": "Comfortable clothes and enthusiasm. We have all gear." }
+        "question": { "en": "What should I bring?", "de": "Was sollte ich mitbringen?" },
+        "answer": { "en": "Warm layers and closed, sturdy shoes. We provide all gear and waterproofs if needed.", "de": "Warme Kleidung und festes Schuhwerk. Wir stellen alles Equipment und bei Bedarf Wetterkleidung." }
       },
       {
-        "question": { "no": "Hvordan booker jeg?", "en": "How do I book?" },
-        "answer": { "no": "Send oss en e-post så setter vi opp turen sammen.", "en": "Send us an email and we'll set up the tour together." }
+        "question": { "en": "Can I keep the fish I catch?", "de": "Kann ich den gefangenen Fisch behalten?" },
+        "answer": { "en": "Yes. We practice catch & release to keep stocks healthy, but you can keep what you want for dinner.", "de": "Ja. Wir praktizieren Catch & Release, um die Bestände zu schützen, aber was du zum Abendessen möchtest, kannst du behalten." }
       }
     ]
   },
   "contact": {
-    "title": { "no": "Kontakt", "en": "Contact" },
+    "title": { "en": "Contact", "de": "Kontakt" },
     "formLabels": {
-      "name": { "no": "Navn", "en": "Name" },
-      "email": { "no": "E-post", "en": "Email" },
-      "message": { "no": "Melding", "en": "Message" },
-      "submit": { "no": "Send melding", "en": "Send Message" }
+      "name": { "en": "Name", "de": "Name" },
+      "email": { "en": "Email", "de": "E-Mail" },
+      "message": { "en": "Message", "de": "Nachricht" },
+      "submit": { "en": "Send Message", "de": "Nachricht senden" }
     },
     "info": {
-      "title": { "no": "Kontaktinformasjon", "en": "Contact Info" },
-      "email": { "no": "E-post", "en": "Email" },
-      "location": { "no": "Sted", "en": "Location" },
-      "emailValue": "post@hannesfishing.no",
-      "locationValue": { "no": "Tromsø, Norway", "en": "Tromsø, Norway" }
+      "title": { "en": "Contact Info", "de": "Kontaktinformation" },
+      "email": { "en": "Email", "de": "E-Mail" },
+      "location": { "en": "Location", "de": "Standort" },
+      "emailValue": "post@urbancodfishing.no",
+      "locationValue": { "en": "Tromsø, Norway", "de": "Tromsø, Norwegen" }
     }
   },
   "footer": {
-    "copyright": { "no": "© 2026 Hannes Fishing — Tromsø, Norge", "en": "© 2026 Hannes Fishing — Tromsø, Norway" }
+    "copyright": { "en": "© 2026 Urban Cod Fishing — Tromsø, Norway", "de": "© 2026 Urban Cod Fishing — Tromsø, Norwegen" }
   }
 }
