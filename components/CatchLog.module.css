@@ -1,0 +1,118 @@
+.wrap {
+  background: var(--deep, #0d1117);
+}
+
+/* At-a-glance totals */
+.totals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  max-width: 760px;
+  margin: 0 auto 32px;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid var(--steel);
+  border-radius: 10px;
+  padding: 18px 10px;
+}
+
+.totalN {
+  color: var(--gold);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.totalLabel {
+  color: var(--mist);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 6px;
+}
+
+/* Monthly table */
+.tableWrap {
+  max-width: 920px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table thead th {
+  color: var(--mist);
+  text-align: left;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+  padding: 0 14px 12px;
+  border-bottom: 1px solid var(--steel);
+  white-space: nowrap;
+}
+
+.table tbody td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  color: var(--foam);
+  vertical-align: top;
+}
+
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.month {
+  color: var(--gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.num {
+  white-space: nowrap;
+}
+
+.goodPill {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--night);
+  font-weight: 700;
+  border-radius: 999px;
+  min-width: 22px;
+  text-align: center;
+  padding: 1px 8px;
+}
+
+.species {
+  color: var(--mist);
+  min-width: 160px;
+}
+
+.biggest {
+  color: var(--mist);
+  white-space: nowrap;
+}
+
+.foot {
+  text-align: center;
+  color: var(--mist);
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 22px;
+}
+
+@media (max-width: 600px) {
+  .totals {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

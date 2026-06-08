@@ -32,6 +32,13 @@
       },
       {
         "label": {
+          "en": "Catches",
+          "de": "Fänge"
+        },
+        "href": "/catch"
+      },
+      {
+        "label": {
           "en": "Contact",
           "de": "Kontakt"
         },
