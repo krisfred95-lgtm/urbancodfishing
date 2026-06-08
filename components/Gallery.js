@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { useLang } from '@/context/LangContext';
 import styles from './Gallery.module.css';
 
 const allImages = [
@@ -27,6 +28,7 @@ const gridImages = [
 ];
 
 export default function Gallery() {
+  const { lang } = useLang();
   const [lightbox, setLightbox] = useState(null);
 
   return (

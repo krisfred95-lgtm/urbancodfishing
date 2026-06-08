@@ -3,8 +3,6 @@ import Tours from '@/components/Tours';
 import Included from '@/components/Included';
 import Why from '@/components/Why';
 import Gallery from '@/components/Gallery';
-import Reviews from '@/components/Reviews';
-import FAQ from '@/components/FAQ';
 import Contact from '@/components/Contact';
 import Species from '@/components/Species';
 import Territory from '@/components/Territory';
@@ -23,8 +21,6 @@ export default function Home() {
       <Included />
       <Why />
       <Gallery />
-      <Reviews />
-      <FAQ />
       <Contact />
     </>
   );

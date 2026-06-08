@@ -193,6 +193,18 @@
       }
     },
     "info": {
+      "title": {
+        "en": "Contact Info",
+        "de": "Kontaktinformation"
+      },
+      "email": {
+        "en": "Email",
+        "de": "E-Mail"
+      },
+      "location": {
+        "en": "Location",
+        "de": "Standort"
+      },
       "emailValue": "post@urbancodfishing.no",
       "locationValue": {
         "en": "Tromsø downtown, harbor",
