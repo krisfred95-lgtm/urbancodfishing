@@ -53,8 +53,8 @@
         "de": "Mitternachtssonne"
       },
       "duration": {
-        "en": "Weekends · seasonal",
-        "de": "Wochenenden · Saison"
+        "en": "Weekends · 21:00–00:00 · seasonal",
+        "de": "Wochenenden · 21:00–00:00 · saisonal"
       },
       "price": "0",
       "currency": "kr",

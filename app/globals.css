@@ -107,6 +107,45 @@ input, textarea {
   transform: translateY(0);
 }
 
+/* Reusable buttons (used via plain className, e.g. Tours "Book") */
+.ctaPrimary,
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 26px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+}
+
+.ctaPrimary {
+  background: var(--off-white);
+  color: var(--black);
+  border: 1px solid var(--off-white);
+}
+
+.ctaPrimary:hover {
+  background: transparent;
+  color: var(--off-white);
+}
+
+.ctaSecondary {
+  background: transparent;
+  color: var(--off-white);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.ctaSecondary:hover {
+  border-color: var(--off-white);
+  background: rgba(255, 255, 255, 0.08);
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 60px 20px;

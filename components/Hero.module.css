@@ -1,24 +1,214 @@
 .hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  background: linear-gradient(180deg, rgba(12, 12, 15, 0.75) 0%, rgba(20, 20, 24, 0.9) 100%),
-              url('/images/46046287-A4CF-498D-902F-DE488CF7C92A.PNG') center/cover no-repeat;
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 130px 20px 70px;
   overflow: hidden;
+  background: var(--black);
 }
 
-.hero::before {
+/* Full-bleed background photo (set inline in Hero.js) */
+.bgImage {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 35%;
+  filter: grayscale(100%) contrast(1.05) brightness(0.8);
+  transform: scale(1.03);
+  z-index: 0;
+}
+
+/* Dark gradient so text stays readable, heavier at the bottom */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.35) 38%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+/* Eyebrow — small uppercase label with a flanking line */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Archivo', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--off-white);
+  opacity: 0.85;
+}
+
+.eyebrowLine {
+  width: 42px;
+  height: 1px;
+  background: var(--off-white);
+  opacity: 0.55;
+}
+
+.headline {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(2.9rem, 8.5vw, 6.2rem);
+  line-height: 0.92;
+  letter-spacing: 0.015em;
+  color: var(--white);
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.headline em {
+  display: block;
+  font-style: normal;
+  color: var(--off-white);
+  opacity: 0.92;
+}
+
+.subheadline {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 300;
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  line-height: 1.65;
+  color: var(--off-white);
+  opacity: 0.88;
+  max-width: 640px;
+}
+
+/* Call-to-action buttons */
+.ctas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 36px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+
+.ctaPrimary {
+  background: var(--off-white);
+  color: var(--black);
+  border: 1px solid var(--off-white);
+}
+
+.ctaPrimary:hover {
+  background: transparent;
+  color: var(--off-white);
+}
+
+.ctaSecondary {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--off-white);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.ctaSecondary:hover {
+  border-color: var(--off-white);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Stats row */
+.stats {
+  display: flex;
+  margin-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.stat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 22px 30px;
+}
+
+.stat:not(:last-child)::after {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
   right: 0;
-  bottom: 0;
-  background: radial-gradient(ellipse at center top, rgba(28, 28, 31, 0.6) 0%, transparent 70%);
-  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.statValue {
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  line-height: 1;
+  color: var(--white);
+}
+
+.statLabel {
+  font-family: 'Archivo', sans-serif;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--off-white);
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 110px 18px 56px;
+  }
+  .ctas {
+    width: 100%;
+  }
+  .ctaPrimary,
+  .ctaSecondary {
+    flex: 1 1 auto;
+  }
+  .stats {
+    flex-wrap: wrap;
+    border: none;
+    gap: 0;
+    width: 100%;
+    max-width: 360px;
+  }
+  .stat {
+    width: 50%;
+    padding: 16px 10px;
+  }
+  .stat:not(:last-child)::after {
+    display: none;
+  }
+  .stat:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+  }
 }
